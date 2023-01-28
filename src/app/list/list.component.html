@@ -1,0 +1,7 @@
+<ul>
+    <li *ngFor="let student of studentsList" 
+    [ngClass]="student.isActive ? 'active': 'inactive'" 
+    [ngClass]="student.age > 30 ? 'circle' : 'square' ">
+        {{student.name}}
+    </li>
+</ul>

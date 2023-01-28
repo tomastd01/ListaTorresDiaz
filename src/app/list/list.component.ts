@@ -27,16 +27,16 @@ export class ListComponent {
       isActive: true
     },
     {
-      name: "Bob",
-      age: 40,
-      email: "bob@gmail.com",
-      isActive: false
-    },
-    {
       name: "Pepe",
       age: 18,
       email: "pepe@gmail.com",
       isActive: true
     },
+    {
+      name: "Bob",
+      age: 40,
+      email: "bob@gmail.com",
+      isActive: false
+    }
   ]
 }
