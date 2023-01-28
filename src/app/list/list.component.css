@@ -1,0 +1,17 @@
+.list {
+    font-family: Arial, sans-serif;
+    font-size: 1.4em;
+}
+.active {
+   color: rgb(20, 161, 20);
+}
+.inactive {
+    color: rgb(212, 25, 25);
+}
+
+.circle {
+    list-style: circle;
+}
+.square {
+    list-style: square;
+}
